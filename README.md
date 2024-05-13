@@ -1,4 +1,4 @@
-# MLG382_Project1
+# MLG382_Project 2
 ## Authors
 Phogole Amos Dampe Mamogobo – 577527 <br>
 Nosipho Precious Donkrag – 577354 <br>
