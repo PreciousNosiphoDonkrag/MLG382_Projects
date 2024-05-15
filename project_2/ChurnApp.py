@@ -11,9 +11,8 @@ import numpy as np
 pd.set_option('display.max_columns', None)
 
 # Trained machine learning models
-model = joblib.load('./artifacts/rf_model.pk2')
-model_lr = joblib.load('./artifacts/model_lr_V2.pk1')
-data = pd.read_csv('./data/prepped_df.csv')
+model = joblib.load('./project_2/artifacts/rf_model.pk2')
+model_lr = joblib.load('./project_2/artifacts/model_lr_V2.pk1')
 
 # Create a Dash app
 app = dash.Dash(__name__)
@@ -21,7 +20,7 @@ server=app.server
 
 def ft_importance(model_dt):
     
-    test_df = pd.read_csv('./data/prepped_df.csv', index_col=False)
+    test_df = pd.read_csv('./project_2/src/data/prepped_df.csv', index_col=False)
 
     X = test_df.drop(columns=['Churn'])
     Y = test_df['Churn']
