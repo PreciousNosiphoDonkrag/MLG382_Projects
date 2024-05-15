@@ -9,11 +9,11 @@ Calvin Jordaan - 577859 <br>
 
 ### What was done
 - Exploratory Data Analysis,
-- data preproccessing and cleaning,
+- data preprocessing and cleaning,
 - Data transformation,
 - Decision tree ml model,
 - Random Forest ml model,
 - feature engineering,
 - storage of both models in .pk files,
-
+- Front end DASH application
 
