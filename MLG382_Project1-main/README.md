@@ -23,3 +23,5 @@ Calvin Jordaan - 577859 <br>
 - storage of both models in .pk files,
 - final predictions on validation.csv. 
 
+### where to find the notebooks
+The final notebook is under the src folder, the pdf converted noteboooks show mostly the code because of the conversion, it is suggested to view the final_notebook.ipynb under the folder src to view the outputs from each cells.
